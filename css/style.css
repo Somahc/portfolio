@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html {
+    font-size: 100%;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+body {
+    line-height: 1.7;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+/* header */
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    list-style: none;
+}
+.main-nav li {
+    margin-right: 20px;
+}
+.main-nav a {
+    color: black;
+}
+.main-nav a:hover {
+    color: green;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;  
+}
+.page-header h1 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+#my-name {
+    color: black;
+    margin-left: 20px;
+}
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* HOME */
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.25rem;
+    margin: 10px 0 42px;
+}
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+.big-name {
+    font-size: 5rem;
+
+}
+#home {
+    background-image: url(../images/yakei.jpg);
+    min-height: 100vh;
+    /* filter: blur(2px) grayscale(1); */
+}
+
+/* PROFILE */
+.profile-content {
+    margin-top: 0;
+    padding: 20px 0;
+    background-color: rgb(110, 137, 218);
+}
+.profile-content h2 {
+    margin-top: 0;
+}
+
+.profile-content img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    background-position: 50% 50%;
+    border-radius: 50%;
+}
+#bio {
+    display: flex;
+    color: black;
+
+}
+#bio p {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+#bio-text {
+    flex-shrink: 0; /* 縮小しない */
+    flex-grow: 1; /* 親要素の幅いっぱいに拡張 */
+    text-align: left;
+    margin-left: 20px;
+}
+#bio-name {
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+#sns-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+#sns-list li {
+    margin-right: 15px;
+}
+#sns-list a {
+    color: black;
+}
+
