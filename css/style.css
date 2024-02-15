@@ -5,7 +5,9 @@ html {
     font-size: 100%;
 }
 header {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;  /* ヘッダーの幅 */
 
 }
 body {
@@ -31,8 +33,9 @@ h2 {
     display: flex;
     font-size: 1.25rem;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin: 20px 0;
     list-style: none;
+    color: white;
 }
 .main-nav li {
     margin-right: 20px;
@@ -41,24 +44,26 @@ h2 {
 .main-nav li:hover {
     color: green;
 }
-.main-nav a {
+/* .main-nav a {
     color: black;
-}
-.main-nav a:hover {
+} */
+/* .main-nav a:hover {
     color: green;
-}
+} */
 .page-header {
     display: flex;
     justify-content: space-between;
-    margin: 0;  
+    /* margin: 0;   */
+    
 }
 .page-header h1 {
     font-size: 1.5rem;
     margin-top: 20px;
 }
 #my-name {
-    color: black;
+    color: white;
     margin-left: 20px;
+    cursor: pointer;
 }
 .wrapper {
     max-width: 1300px;
@@ -199,4 +204,15 @@ margin-bottom: 60px;
 }
 #work3-img {
     width: 700px;
+}
+
+/* SKILL */
+.skill-content {
+    margin-top: 0;
+    padding: 20px 0;
+    background-color: rgb(110, 218, 160);
+}
+
+.skill-set {
+    margin-bottom: 20px;
 }

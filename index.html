@@ -17,17 +17,17 @@
         <!-- HOME -->
         <div id="home" class="big-bg">
             <header class="page-header">
-                <h1><a href="index.html" id="my-name">Soma</a></h1>
+                <h1><div id="my-name" onClick="navHomeClick()">Soma</div></h1>
                 <ul class="main-nav">
-                    <li><div id="nav-home" onclick="navHomeClick()">HOME</div></li>
-                    <li><div id="nav-skill" onclick="navSKillClick()">SKILL</div></li>
-                    <li><div id="nav-work" onclick="navWorkClick()">WORK</div></li>
+                    <li><div id="nav-home" onclick="navProfileClick()">PROFILE</div></li>
                     <li><div id="nav-career" onclick="navCareerClick()">CAREER</div></li>
+                    <li><div id="nav-skill" onclick="navSkillClick()">SKILL</div></li>
+                    <li><div id="nav-work" onclick="navWorkClick()">WORK</div></li>
                 </ul>
             </header>
         </div>
         <!-- PROFILE -->
-        <div class="profile-content">
+        <div class="profile-content" id="profile">
             <div class="wrapper">
                 <h2>Profile</h2>
                 <div id="bio">
@@ -44,6 +44,7 @@
                 </div>
             </div>
         </div>
+        <!-- CAREER -->
         <div class="career-content" id="career">
             <div class="wrapper">
                 <h2>Career</h2>
@@ -106,6 +107,17 @@
                 </ul>
             </div>
         </div>
+        <!-- SKILL -->
+        <div class="skill-content" id="skill">
+            <div class="wrapper">
+                <h2>Skill</h2>
+                <h3>よく使う技術</h3>
+                <p class="skill-set">HTML/CSS, JavaScript, C++, Vue, Git/GitHub, Unity</p>
+                <h3>勉強中の技術</h3>
+                <p class="skill-set">React, MySQL, PostgreSQL, PHP, laravel, NestJS</p>
+            </div>
+        </div>
+        <!-- WORK -->
         <div class="work-content" id="work">
             <div class="wrapper">
                 <h2>Work</h2>
