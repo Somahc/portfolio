@@ -20,9 +20,10 @@
                 <h1><div id="my-name" onClick="navHomeClick()">Soma</div></h1>
                 <ul class="main-nav">
                     <li><div id="nav-home" onclick="navProfileClick()">PROFILE</div></li>
-                    <li><div id="nav-career" onclick="navCareerClick()">CAREER</div></li>
-                    <li><div id="nav-skill" onclick="navSkillClick()">SKILL</div></li>
                     <li><div id="nav-work" onclick="navWorkClick()">WORK</div></li>
+                    <li><div id="nav-skill" onclick="navSkillClick()">SKILL</div></li>
+                    <li><div id="nav-career" onclick="navCareerClick()">CAREER</div></li>
+                    <li><div id="nav-likes" onclick="navLikesClick()">LIKES</div></li>
                 </ul>
             </header>
         </div>
@@ -34,89 +35,15 @@
                     <img src="images/profile.jpg" alt="プロフィール画像">
                     <div id="bio-text">
                         <p id="bio-name">Soma</p>
-                        <p>Web系エンジニアを目指しています。</p>
+                        <p>Web系エンジニアを目指しています。上の画像は私が撮影したトロントの夜景です。</p>
                         <ul id="sns-list">
                             <li><a href="https://github.com/Somahc"><i class="fa-brands fa-github fa-2x"></i></a></li>
                             <li><a href="https://twitter.com/sigreni_jp"><i class="fa-brands fa-x-twitter fa-2x"></i></a></li>
                             <li><a href="https://zenn.dev/somahc"><i class="fa-regular fa-newspaper fa-2x"></i></a></li>
+                            <li><a href="https://www.youtube.com/@sisig_jp"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- CAREER -->
-        <div class="career-content" id="career">
-            <div class="wrapper">
-                <h2>Career</h2>
-                <ul class="timeline">
-                    <li>
-                        <p class="timeline-date">2021.4</p>
-                        <div class="timeline-content">
-                            <h3>青山学院大学社会情報学部社会情報学科 入学</h3>
-                            <p>山手学院高校理数科コースを卒業し、補欠合格でギリギリ青学に進学。同時期に個別指導塾で講師としてアルバイトを開始。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2022.1</p>
-                        <div class="timeline-content">
-                            <h3>英語学習を本格的にスタート</h3>
-                            <p>「英語が喋れる人」に漠然と憧れを抱き、英語学習を本格的にスタート。無料のオンラインゲームVRChatで海外の友達を作ったことが大きなモチベーションになった。年に2人しか選ばれない学校代表の交換留学生になることを目標に実践的な英語力を鍛え始める。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2022.8</p>
-                        <div class="timeline-content">
-                            <h3>IELTS OA6.5点 取得</h3>
-                            <p>英語の4技能を測る資格試験IELTSにてReading:7.5, Speaking:6.0, Listening:6.5, Writing:6.5の得点を取得し、交換留学面接の受験資格を獲得。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2023.1</p>
-                        <div class="timeline-content">
-                            <h3>交換留学内定・学部首席として表彰</h3>
-                            <p>学内面接を突破し、カナダ・トロントに位置するヨーク大学への1年間の留学が決定。また、2022年度学部成績最優秀賞を受賞。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2023.4</p>
-                        <div class="timeline-content">
-                            <h3>長期インターン・ゼミ開始</h3>
-                            <p>株式会社ハウコレにて長期インターン生として勤務を開始。Vueを使ったフロントエンド周りのコーディングやディレクションを担当。また、情報系の分野を扱う宮治ゼミへ配属された。インターンやゼミで自分の実力不足を痛感し、技術系の勉強を本格的にスタート。GitHubのアカウントを作ったのもこの頃。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2023.8</p>
-                        <div class="timeline-content">
-                            <h3>サマーインターン参加</h3>
-                            <p>株式会社Sansan、およびDMM.comグループにて短期インターンに参加。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2023.9</p>
-                        <div class="timeline-content">
-                            <h3>留学開始</h3>
-                            <p>トロントにて交換留学を開始。様々なバックグラウンドを持つ現地学生と共に、主に人文科学系について学ぶ。</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2024.4</p>
-                        <div class="timeline-content">
-                            <h3>帰国（予定）</h3>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- SKILL -->
-        <div class="skill-content" id="skill">
-            <div class="wrapper">
-                <h2>Skill</h2>
-                <h3>よく使う技術</h3>
-                <p class="skill-set">HTML/CSS, JavaScript, C++, Vue, Git/GitHub, Unity</p>
-                <h3>勉強中の技術</h3>
-                <p class="skill-set">React, MySQL, PostgreSQL, PHP, laravel, NestJS</p>
-                <h3>資格</h3>
-                <p class="skill-set">英検準一級, TOEIC IP 930点, IELTS OA 6.5</p>
             </div>
         </div>
         <!-- WORK -->
@@ -152,6 +79,89 @@
                     <p>使用技術: HTML/CSS, JavaScript, React, Google Firebase, Git, GitHub</p>
                     <a href="https://github.com/Somahc/instagram-clone-react">ソースコードはこちら</a>
                 </div>
+            </div>
+        </div>
+        <!-- SKILL -->
+        <div class="skill-content" id="skill">
+            <div class="wrapper">
+                <h2>Skill</h2>
+                <h3>よく使う技術</h3>
+                <p class="skill-set">HTML/CSS, JavaScript, C++, Vue, Git/GitHub, Unity</p>
+                <h3>勉強中の技術</h3>
+                <p class="skill-set">React, MySQL, PostgreSQL, PHP, laravel, NestJS</p>
+                <h3>資格</h3>
+                <p class="skill-set">英検準一級, TOEIC IP 930点, IELTS OA 6.5</p>
+            </div>
+        </div>
+        <!-- CAREER -->
+        <div class="career-content" id="career">
+            <div class="wrapper">
+                <h2>Career</h2>
+                <ul class="timeline">
+                    <li>
+                        <p class="timeline-date">2021.4</p>
+                        <div class="timeline-content">
+                            <h3>青山学院大学社会情報学部社会情報学科 入学</h3>
+                            <p>山手学院高校理数科コースを卒業し、補欠合格でギリギリ青学に進学。同時期に個別指導塾で講師としてアルバイトを開始。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="timeline-date">2022.1</p>
+                        <div class="timeline-content">
+                            <h3>英語学習を本格的にスタート</h3>
+                            <p>「英語が喋れる人」に漠然と憧れを抱き、英語学習を本格的にスタート。無料のオンラインゲームVRChatで海外の友達を作ったことが大きなモチベーションになった。年に2人しか選ばれない学校代表の交換留学生になることを目標に実践的な英語力を鍛え始める。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="timeline-date">2022.8</p>
+                        <div class="timeline-content">
+                            <h3>IELTS OA6.5点 取得</h3>
+                            <p>英語の4技能を測る資格試験IELTSにてReading:7.5, Speaking:6.0, Listening:6.5, Writing:6.5の得点を取得し、交換留学面接の受験資格を獲得。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="timeline-date">2023.1</p>
+                        <div class="timeline-content">
+                            <h3>交換留学内定・学部首席として表彰</h3>
+                            <p>学内面接を突破し、カナダ・トロントに位置するヨーク大学へ8ヶ月の留学が決定。また、2022年度学部成績最優秀賞を受賞。（<a href="https://life.a01.aoyama.ac.jp/interview/1443">学校からのインタビュー記事</a>）</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="timeline-date">2023.4</p>
+                        <div class="timeline-content">
+                            <h3>長期インターン・ゼミ開始</h3>
+                            <p>株式会社ハウコレにて長期インターン生として勤務を開始。Vueを使ったフロントエンド周りのコーディングやディレクションを担当。また、情報系の分野を扱う宮治ゼミへ配属された。インターンやゼミで自分の実力不足を痛感し、技術系の勉強を本格的にスタート。GitHubのアカウントを作ったのもこの頃。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="timeline-date">2023.8</p>
+                        <div class="timeline-content">
+                            <h3>サマーインターン参加</h3>
+                            <p>株式会社Sansan、およびDMM.comグループにて短期インターンに参加。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="timeline-date">2023.9</p>
+                        <div class="timeline-content">
+                            <h3>留学開始</h3>
+                            <p>トロントにて交換留学を開始。様々なバックグラウンドを持つ現地学生と共に、主に人文科学系について学ぶ。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="timeline-date">2024.4</p>
+                        <div class="timeline-content">
+                            <h3>帰国（予定）</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- LIKES -->
+        <div class="likes-content" id="likes">
+            <div class="wrapper">
+                <h2>Likes</h2>
+                <h3>趣味</h3>
+                <p>VR、PC、カメラ、ギター、画像・動画編集、言語学習</p>
             </div>
         </div>
         <!-- FOOTER -->

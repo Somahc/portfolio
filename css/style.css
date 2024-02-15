@@ -219,3 +219,10 @@ margin-bottom: 60px;
 .skill-set {
     margin-bottom: 20px;
 }
+
+/* LIKES */
+.likes-content {
+    margin-top: 0;
+    padding: 20px 0;
+    background-color: rgb(252, 165, 165);
+}
