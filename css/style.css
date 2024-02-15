@@ -36,6 +36,10 @@ h2 {
 }
 .main-nav li {
     margin-right: 20px;
+    cursor: pointer;
+}
+.main-nav li:hover {
+    color: green;
 }
 .main-nav a {
     color: black;
@@ -143,6 +147,10 @@ h2 {
 .timeline > li {
 margin-bottom: 60px;
 }
+.timeline-content h3 {
+    margin-top: 15px;
+
+}
 
 @media ( min-width : 640px ) {
     .timeline > li {
@@ -165,10 +173,30 @@ margin-bottom: 60px;
         content: '';
         width: 12px;
         height: 12px;
-        background: #6fc173;
+        background: rgb(110, 137, 218);
         position: absolute;
         left: 106px;
         top: 24px;
         border-radius: 100%;
       }
+}
+
+.work-item {
+    padding-bottom: 40px;
+}
+#work1-title {
+    width: 500px;
+}
+#work1-game {
+    width: 500px;
+}
+.twitter {
+    width: 400px;
+    margin: 0 auto;
+}
+.work-item-resource {
+    text-align: center;
+}
+#work3-img {
+    width: 700px;
 }

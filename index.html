@@ -6,9 +6,11 @@
         <meta name="description" content="Somahcのポートフォリオサイト">
 
     <!-- CSS -->
-        <link rel="stylelsheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
         <link rel="stylesheet" href="css/style.css">
         <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
+
+        <script src="./home.js" async></script>
     </head>
 
     <body>
@@ -17,10 +19,10 @@
             <header class="page-header">
                 <h1><a href="index.html" id="my-name">Soma</a></h1>
                 <ul class="main-nav">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="work.html">WORK</a></li>
-                    <li><a href="hobby.html">HOBBY</a></li>
-                    <li><a href="links.html">LINKS</a></li>
+                    <li><div id="nav-home" onclick="navHomeClick()">HOME</div></li>
+                    <li><div id="nav-skill" onclick="navSKillClick()">SKILL</div></li>
+                    <li><div id="nav-work" onclick="navWorkClick()">WORK</div></li>
+                    <li><div id="nav-career" onclick="navCareerClick()">CAREER</div></li>
                 </ul>
             </header>
         </div>
@@ -36,12 +38,13 @@
                         <ul id="sns-list">
                             <li><a href="https://github.com/Somahc"><i class="fa-brands fa-github fa-2x"></i></a></li>
                             <li><a href="https://twitter.com/sigreni_jp"><i class="fa-brands fa-x-twitter fa-2x"></i></a></li>
+                            <li><a href="https://zenn.dev/somahc"><i class="fa-regular fa-newspaper fa-2x"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="career-content">
+        <div class="career-content" id="career">
             <div class="wrapper">
                 <h2>Career</h2>
                 <ul class="timeline">
@@ -91,7 +94,7 @@
                         <p class="timeline-date">2023.9</p>
                         <div class="timeline-content">
                             <h3>留学開始</h3>
-                            <p>トロントにて交換留学を開始。言語も文化の違いに苦しみながらも、充実した日々を送る。</p>
+                            <p>トロントにて交換留学を開始。様々なバックグラウンドを持つ現地学生と共に、主に人文科学系について学ぶ。</p>
                         </div>
                     </li>
                     <li>
@@ -101,6 +104,38 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="work-content" id="work">
+            <div class="wrapper">
+                <h2>Work</h2>
+                <div class="work-item">
+                    <h3>すすめ!!にわとりくん! (2023年8月)</h3>
+                    <div class="work-item-resource">
+                        <img src="images/work1_title.png" id="work1-title" alt="work1_title">
+                        <img src="images/work1_game.png" id="work1-game" alt="work1_game">
+                    </div>
+                    <p>2023年度相模原祭へのゼミの展示物として作成。ゼミ内で3人チームを作り、ハッカソン形式で2日間共同で開発しました。テーマ「あつい」に沿り、「暑さ値」がMaxにならないよう気をつけつつゴールを目指す強制横スクロール2Dゲームです。</p>
+                    <p>使用技術: Unity, C#, Git, GitHub, Sourcetree</p>
+                </div>
+                <div class="work-item">
+                    <h3>スイカゲームパロディ (2023年10月)</h3>
+                    <div class="work-item-resource">
+                        <div class="twitter">
+                            <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Suika game seemed easy to make but it took 10 hours for me to get here lol <a href="https://t.co/5r2zOCC92j">pic.twitter.com/5r2zOCC92j</a></p>&mdash; 時雨煮 / Sigreni (@sigreni_jp) <a href="https://twitter.com/sigreni_jp/status/1714474566452404389?ref_src=twsrc%5Etfw">October 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </div>
+                    <p>ハッカソンでUnityに興味を持ち、流行していたスイカゲームをUnityで再現しました。スコア、ゲームオーバーなどスイカゲームの基本的な機能を自分で実装して再現しました。</p>
+                    <p>使用技術: Unity, C#, Git, GitHub</p>
+                </div>
+                <div class="work-item">
+                    <h3>Instagramクローン (2023年6月)</h3>
+                    <div class="work-item-resource">
+                        <img src="images/work3.png" id="work3-img" alt="work3">
+                    </div>
+                    <p>海外のチュートリアル動画を参考に作成したInstagramクローン。フロントエンドだけでなく、フルスタックな開発を学びたいと思い作成しました。参考動画が2020年のものだったため、ところどころ自分で改良する必要がありましたが、初めてログイン機能をもつWebアプリを作成し、デプロイを行いました。</p>
+                    <p>使用技術: HTML/CSS, JavaScript, React, Google Firebase, Git, GitHub</p>
+                </div>
             </div>
         </div>
         <!-- FOOTER -->
